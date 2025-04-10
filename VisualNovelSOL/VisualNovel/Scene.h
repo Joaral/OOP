@@ -7,6 +7,8 @@ protected:
 	std::string options[OPTIONS_NUM];
 
 	std::string gameOverFeedback;
+	std::string correctFeedback;
+	std::string objectFeedBack;
 
 	int correctAnswer;
 	int objectAnswer;
@@ -18,6 +20,11 @@ public:
 	int getObjectAnswer() { return objectAnswer; }
 	int getGoAnswer() { return goAnswer; }
 	std::string getGOFeedback() { return gameOverFeedback; }
+	std::string getCorrectFeedBack() { return correctFeedback; }
+	std::string getObjectFeedBack() { return objectFeedBack; }
+
+	std::string nameObject;
+
 };
 
 class Scene1 :public Scenes {
