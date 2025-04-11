@@ -18,18 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EjerciciosClase.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EjerciciosGPT.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EjerciciosClase.h">
+    <ClInclude Include="personaje.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EjerciciosGPT.h">
+    <ClInclude Include="jugador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemigo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
